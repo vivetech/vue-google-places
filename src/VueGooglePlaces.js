@@ -183,7 +183,7 @@ export default {
       const returnData = {}
 
       if (place.formatted_address !== undefined) {
-        this.textValue = place.formatted_address
+        // this.textValue = place.formatted_address
         // document.getElementById(this.id).value = place.formatted_address
       }
 
